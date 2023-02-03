@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button:hover{
+            background: lime;
+        }
+        a {
+            text-decoration: none;
+            color: red;
+            font-weight: bold;
+        }
+
+        li {
+            list-style: none;
+            float: left;
+            padding: 15px;
+            width: 70px;
+            height: 20px;
+            text-align: center;
+        }
+
+        a:hover {
+            background: pink;
+        }
+
+        li:first-child {
+            border-radius: 50px 0 0 50px;
+        }
+
+        li:last-child {
+            border-radius: 0 50px 50px 0;
+        }
+
+        li:nth-child(2n) {
+            background: orange;
+        }
+
+        li:nth-child(2n+1) {
+            background: yellow;
+        }
+
+        #center {
+            padding: 30px;
+            width: 740px;
+            height: 300px;
+            background: beige;
+        }
+
+        #top2 {
+            border: 20px dotted red;
+            box-shadow: 10px 10px yellow;
+            background: black;
+            color: yellow;
+            border-radius: 100px 10px;
+            width: 250px;
+            height: 100px;
+            position: fixed;
+            top: 5px;
+            right: 5px;
+        }
+
+        #total {
+            width: 800px;
+            height: 800px;
+            background: lightcyan;
+        }
+
+        body {
+            background: pink;
+        }
+
+        div {
+            font-size: 15px;
+            font-weight: bold;
+            color: blue;
+        }
+
+        #top {
+            width: 800px;
+            height: 100px;
+            background: lime;
+            padding: 2px;
+        }
+    </style>
+</head>
+
+<body>
+    
+        <div id="center">
+           
+            <hr color="red">
+            로그인 화면<br>
+            <br>
+            <form action="보내는서버주소">
+                <table>
+                    <tr>
+                        <td>아이디</td>
+                        <td>
+                            <input type="text">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>패스워드</td>
+                        <td>
+                            <input type="password">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center" colspan="2">
+                            <button>로그인 처리 요청</button>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+            <hr color="red">
+        </div>
+    </div>
+</body>
+
+</html>
